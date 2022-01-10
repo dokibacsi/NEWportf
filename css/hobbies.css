@@ -1,0 +1,268 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: url("../photos/bck/bckgrnd.png");
+}
+main {
+  max-width: 100%;
+}
+
+header {
+  padding: 11px;
+  background-color: white;
+  text-align: center;
+  max-width: 100%;
+  border: 1px solid white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 5px;
+}
+
+header img {
+  width: 225px;
+  margin: auto;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav img {
+  width: 25px;
+  display: inline;
+}
+
+nav h3 {
+  width: 200px;
+  margin: auto;
+  display: inline;
+  font-size: 20px;
+}
+
+.arrowleft {
+  display: inline;
+  margin-right: 50px;
+}
+.arrowright {
+  display: inline;
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: inline;
+  margin: 20px;
+}
+
+article {
+  border: 3px solid white;
+  color: white;
+  max-width: 1350px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+
+section {
+  border: 1px solid white;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+section p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+section a {
+  text-decoration: none;
+  color: red;
+}
+
+section img {
+  float: right;
+  width: auto;
+  height: 200px;
+}
+
+section p img {
+  margin: 10px -30px 20px 20px;
+}
+
+footer {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  border: 1px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  grid-area: F;
+}
+
+.gomb {
+  display: block;
+  width: 150px;
+  margin: auto;
+  padding-top: 10px;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.gomb:hover {
+  display: block;
+  width: 150px;
+  margin: auto;
+  padding-top: 10px;
+  color: black;
+  background-color: white;
+}
+
+.bar {
+  width: 1080px;
+  height: auto;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.bar img {
+  width: 64px;
+  height: 64px;
+  padding: 20px;
+}
+
+.bar a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.bar h2 {
+  color: black;
+  background-color: white;
+  max-width: 400px;
+}
+
+.bar p {
+  padding: 20px;
+  text-align: center;
+}
+
+section .bar {
+  margin-left: 9px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+.bar iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: url("../photos/bck/bckgrnd.png");
+    max-width: 100%;
+    display: grid;
+    grid-template-areas:
+      "H H H"
+      "N N N"
+      "AR AR AR"
+      "FO FO FO";
+  }
+
+  section {
+    border: 1px solid white;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  section h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+  }
+
+  section p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  section a {
+    text-decoration: none;
+    color: red;
+  }
+
+  section img {
+    margin: auto;
+    width: auto;
+    height: 200px;
+  }
+
+  section p img {
+    margin: 10px -30px 20px 20px;
+  }
+
+  section .bar {
+    margin-left: 0;
+    margin: left;
+  }
+
+  .bar {
+    width: auto;
+  }
+
+  .bar iframe {
+    width: 450px;
+    height: 218px;
+  }
+}

@@ -1,0 +1,124 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: url("../photos/bck/bckgrnd.png");
+  height: 100vh;
+}
+
+header {
+  padding: 11px 0 11px 0;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header img {
+  height: 55px;
+}
+
+nav {
+  max-width: 1000px;
+  min-height: calc(95vh - 77px);
+  color: white;
+  text-align: center;
+  margin: 4vh auto;
+}
+
+.bar {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid white;
+  display: inline-block;
+}
+
+.bar img {
+  width: 64px;
+  height: 64px;
+  padding: 20px;
+}
+
+.bar a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+nav .bar {
+  margin-top: 5px;
+  border: 1px solid white;
+}
+
+.bar h2 {
+  color: black;
+  background-color: white;
+  max-width: 400px;
+}
+
+.bar p {
+  padding: 20px;
+}
+
+footer {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+
+.gomb {
+  display: block;
+  width: 150px;
+  margin: auto;
+  padding-top: 10px;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.gomb:hover {
+  display: block;
+  width: 150px;
+  margin: auto;
+  padding-top: 10px;
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    max-width: 700px;
+  }
+
+  .bar img {
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+  }
+  .bar {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    display: inline-block;
+  }
+
+  .gomb {
+    margin-bottom: 20px;
+  }
+
+  .gomb:hover {
+    margin-bottom: 20px;
+  }
+}
